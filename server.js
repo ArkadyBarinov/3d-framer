@@ -19,6 +19,6 @@ app.use((req, res, next) => {
 app.use(express.static(path.join(__dirname)));
 
 // Запускаем сервер на порту 3001
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log('Сервер запущен на http://localhost:3001');
 });
