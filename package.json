@@ -4,15 +4,26 @@
   "main": "index.js",
   "dependencies": {
     "@mkkellogg/gaussian-splats-3d": "^0.4.5",
+    "browserify": "^17.0.1",
     "express": "^4.21.1",
-    "gsap": "^3.12.5",
-    "three": "^0.170.0"
+    "gle-gaussian-splat-3d": "^1.0.20",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.2",
+    "three": "^0.170.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^5.96.1",
+    "webpack-stream": "^7.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
     "http-server": "^14.1.1"
   },
   "scripts": {
-    "start": "http-server .",
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
